@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+/* Global box-sizing */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8416A0; /* Purple background */
+}
+
+/* Heading styles */
+h1 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+/* Container styles */
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container .header {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: 'Iceland', sans-serif; /* Header font */
+}
+
+/* Wrapper styles */
+.wrapper {
+    width: 740px;
+    height: 276px;
+    background-color: #8416A0; /* Purple background */
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Box styles */
+.box {
+    background-color: #8E44AD; /* Purple box color */
+    border: 1px solid #FFF;
+    box-shadow: inset 0 0 39px 13px rgba(0, 0, 0, 0.25); /* Box shadow */
+    flex: 1;
+    font-family: 'Inter', sans-serif; /* Box font */
+    font-size: 200px;
+    color: #FFF; /* Text color */
+    align-items: center;
+}
+
+/* Action wrapper styles */
+.action-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Button styles */
+.btn {
+    width: 299px;
+    height: 89px;
+    background-color: #8E44AD; /* Purple button color */
+    border: 1px solid #8416A0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Button shadow */
+    border-radius: 27px;
+    font-family: 'Iceland', sans-serif; /* Button font */
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFF; /* Button text color */
+}
+
+.reset-btn {
+    all: unset; /* Reset button styles */
+}
+
+/* Alert styles */
+.alert {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFF; /* White background */
+}
