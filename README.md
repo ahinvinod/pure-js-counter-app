@@ -19,6 +19,8 @@
   -  Use the provided buttons to interact with the counter.
  -   View any error messages displayed in the alert section.
 
- -   ####preview
- -   
+   #### preview
+ -   ![image](https://github.com/ahinvinod/pure-js-counter-app/assets/160048669/fd5b564a-3150-454c-8cff-dcb999c15992)
+
+  
 
